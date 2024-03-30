@@ -1,0 +1,1 @@
+//when status turned on adjust choice-texts

@@ -5,8 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="step-4.css" id="styleSheet">
+  
   <script src="script.js" defer></script>
+  
   
   <title>Frontend Mentor | Rock, Paper, Scissors</title>
 </head>
@@ -16,28 +18,96 @@
         <img src="images/logo-bonus.svg" alt="Rock,Paper,Scissors,Lizard,Spoke">
         
         <div class="inner-score">
-          <span>Score</span>
+          <span class="score-text">Score</span>
           <span class="number">0</span>
+        </div>
+      </div>
 
-        </div>
-      </div>
-      <main>
+
+      <div class = "final-state step-4">
         <div class="choice">
-          You Picked
-          The House Picked
+          <div class="choice-texts">
+            <div>You Picked</div>
+            <div>The House Picked</div>
+          </div>
+          <div class="choice-images">
+            <div class="images user-choice-img">
+              <img src="images/icon-scissors.svg" alt="user choice image">
+            </div>
+            <div class="status">
+              <div class="status-text">You <span class="win-or-lose"></span></div>
+              <div class="play-again"><button class="play-again-btn">Play Again</button></div>
+            </div>
+            <div class="images house-choice-img">
+              <img src="images/icon-spock.svg" alt="House choice image">
+            </div>
+          </div>
         </div>
-      </main>
-      
-      <div class="status">
-        You Win
-        You Lose
-        Play Again
       </div>
-      
-      
-      <div class="rules">
-        <button>Rules</button>
+
+
+      <div class = "both-choices step-3">
+        <div class="choice">
+          <div class="choice-texts both-choices-texts">
+            <div>You Picked</div>
+            <div>The House Picked</div>
+          </div>
+          <div class="choice-images both-choices-images">
+            <div class="images both-choices-user-image">
+              <img src="images/icon-scissors.svg" alt="user choice image">
+            </div>
+            <div class="images both-choices-house-image">
+              <img src="images/icon-spock.svg" alt="House choice image">
+            </div>
+          </div>
+        </div>
       </div>
+
+
+      <div class = "one-choice step-2">
+        <div class="choice">
+          <div class="choice-texts one-choice-texts">
+            <div>You Picked</div>
+            <div>The House Picked</div>
+          </div>
+          <div class="choice-images both-choices-images">
+            <div class="images  one-choice-user-image">
+              <img src="images/icon-scissors.svg" alt="user choice image">
+            </div>
+            <div class="images one-choice-house-image">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="home step-1">
+
+        <button class="images rock-img ">
+              <img src="images/icon-rock.svg" alt="Rock image">
+        </button>
+
+        <button class="images scissors-img ">
+          <img src="images/icon-scissors.svg" alt="Scissors image">
+        </button>
+
+        <button class="images spock-img ">
+          <img src="images/icon-spock.svg" alt="Spock image">
+        </button>
+
+        <button class="images lizard-img ">
+          <img src="images/icon-lizard.svg" alt="Lizard image">
+        </button>
+
+        <button class="images paper-img ">
+          <img src="images/icon-paper.svg" alt="Paper image">
+        </button>
+
+      </div>
+
+
+
+      <button class="rules">Rules</button>
   </div>
 
 
